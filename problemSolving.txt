@@ -1,0 +1,11 @@
+Problem list
+
+1. git push error
+fatal: the current branch master has no upstream branch.
+
+-> it could be auth problem or remote configure miss
+	but i did all
+	i don't know why it works
+git push -f --set-upstream origin master
+
+->	after this, all works are uploaded
