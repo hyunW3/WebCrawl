@@ -10,6 +10,19 @@
    that signify that you should link the remote repository
    6-1 git remote add origin "https://github.com/hyunW3/~ ... "
    then git pull
+   or 
+   6-2
+   it said like 
+  There is no tracking information for the current branch.
+  Please specify which branch you want to merge with.
+  -> you could specify what branch you want to pull:
+
+  git pull origin master
+  Or you could set it up so that your local master branch tracks github master branch as an upstream:
+
+  git branch --set-upstream-to=origin/master master
+  git pull
+  This branch tracking is set up for you automatically when you clone a repository (for the default branch only), but if you add a remote   to an existing repository you have to set up the tracking yourself. Thankfully, the advice given by git makes that pretty easy to         remember how to do.
 7. git push # to the web
 
 links : https://rogerdudler.github.io/git-guide/index.ko.html
