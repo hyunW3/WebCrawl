@@ -5,13 +5,9 @@
 3. git config --global user.email "0176778602@naver.com"
 4. git add [something]
 5. git commit -m " [ recode the message ]
-6. git pull # in local
-  6-1 when problem - There is no tracking information for the current branch
-   that signify that you should link the remote repository
-   6-1 git remote add origin "https://github.com/hyunW3/~ ... "
-   then git pull
-   or 
-   6-2
+6. git remote add origin "https://github.com/hyunW3/~ ... "
+7. git pull # in local
+   7-1
    it said like 
   There is no tracking information for the current branch.
   Please specify which branch you want to merge with.
